@@ -1,0 +1,37 @@
+/**global**/
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.pay-p-wrap{
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9F9;
+    max-width: 900px;
+    gap: 10px;
+}
+
+.qr{
+    width: calc(100%-24px);
+    max-height: 600px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.qrc{
+    width: calc(100%-24px);
+    padding: 12px;
+    background-color: white;
+}
+
+.qrimg{
+    width: 250px;
+    height: 400px;
+    scale: 2;
+    margin-top: 200px
+}

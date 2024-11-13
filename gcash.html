@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmanuelPay - GCash Payment</title>
+    <link rel="icon" type="image/x-icon" href="https://manuelmacayan.com/src/logo/logo_colored.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./jquery.js"></script>
+    <script type="text/javascript" src="./captcha.js"></script>
+</head>
+<link href="gcash.css" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<body onload="generateCaptcha()">
+
+
+        <div class="header bg-gr flex-c">
+            <img height="60%" src="https://manuelmacayan.com/src/logo/logo_colored.svg" alt=""/>
+        </div>
+
+        <div class="pay-p-wrap">
+
+            <div class="pay-d bg-w shad-b mb-10">
+                <div class="item flex-c">
+                    <div class="w100">
+                        <div class="f13 gray1 bold">EmanuelPay</div>
+                        <div class="f13 gray1 reg">Order No.: 123456789012</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="qrc bg-w shad-b mb-10">
+                <div class="item flex-column">
+                    <div class="w100">
+                        <div class="f16 gray1 bold mb-20">GCash</div>
+                    </div>
+                </div>
+                <div class="qr w100">
+                    <img class="qrimg" src="./media/gcash_qr.jpg">
+                </div> 
+            </div>
+
+        </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
