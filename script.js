@@ -111,5 +111,5 @@ window.onload = function() {
     // Delay the focus slightly to ensure the mobile device is ready
     setTimeout(function() {
         document.getElementById('inputnah').focus();
-    }, 100);  // Slight delay (100ms) to help with mobile behavior
+    }, 1);  // Slight delay (100ms) to help with mobile behavior
 }
