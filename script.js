@@ -107,9 +107,15 @@ $("#cancel").click(function(){
 
 })
 
+ // Add event listener to the body to trigger input focus on tap
+ document.body.addEventListener('click', function() {
+    // Focus the input field
+    document.getElementById('name').focus();
+});
+
+// Optional: Add a small delay to ensure focus happens properly
 window.onload = function() {
-    // Delay the focus slightly to ensure the mobile device is ready
     setTimeout(function() {
-        document.getElementById('inputnah').focus();
-    }, 1);  // Slight delay (100ms) to help with mobile behavior
+        document.getElementById('name').focus();
+    }, 100);
 }
