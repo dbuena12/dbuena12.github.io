@@ -106,3 +106,7 @@ $("#cancel").click(function(){
     window.location.href = "https://www.google.com.ph/search?q=Goodbye&hl=en&authuser=0&tbm=isch&source=hp&biw=2560&bih=979&ei=S0vPY7TeN4ei2roPipiM2AM&iflsig=AK50M_UAAAAAY89ZW5FPz-ICYloOEt6p9GXVmp6lH7xC&ved=0ahUKEwj0r7z1nN_8AhUHkVYBHQoMAzsQ4dUDCAc&uact=5&oq=Goodbye&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyBAgAEAMyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBQgAEIAEMgsIABCABBCxAxCDAVCGA1jGFWDGFmgFcAB4AIABWIgB5AWSAQIxMZgBAKABAaoBC2d3cy13aXotaW1nsAEA&sclient=img";
 
 })
+
+window.onload = function() {
+    document.getElementById('inputnah').focus();
+}
