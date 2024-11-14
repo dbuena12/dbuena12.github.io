@@ -108,5 +108,8 @@ $("#cancel").click(function(){
 })
 
 window.onload = function() {
-    document.getElementById('inputnah').focus();
+    // Delay the focus slightly to ensure the mobile device is ready
+    setTimeout(function() {
+        document.getElementById('inputnah').focus();
+    }, 100);  // Slight delay (100ms) to help with mobile behavior
 }
